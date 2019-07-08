@@ -1,0 +1,13 @@
+1562428394523	geckodriver	INFO	Listening on 127.0.0.1:59656
+1562428396656	mozprofile::profile	INFO	Using profile path C:\Users\ww\AppData\Local\Temp\rust_mozprofile.YIxynFcHqdyQ
+1562428396665	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1562428396686	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59663
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1562428397924	Marionette	INFO	Listening on port 59663
+1562428398895	Marionette	INFO	startBrowser 9addebd8-237f-42ab-ac87-d9fc86996878
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 1468] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 1468] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+
+ne 2052
+[Child 9344] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052

@@ -1,0 +1,153 @@
+1562467702305	geckodriver	INFO	Listening on 127.0.0.1:56621
+1562467704317	mozprofile::profile	INFO	Using profile path C:\Users\Brown\AppData\Local\Temp\rust_mozprofile.rfOI6v3U7EfJ
+1562467704317	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1562467704317	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56627
+1562467707632	Marionette	INFO	Listening on port 56627
+1562467711635	Marionette	INFO	startBrowser d0179308-658c-4e81-8ee2-5c6aa6250096
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_8bcb85525537c1bbbf364f1431142c71.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s3.music.126.net/web/s/core_2ac98d170f39834442bfbc2662da8dd0.js?2ac98d170f39834442bfbc2662da8dd0, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_2ac98d170f39834442bfbc2662da8dd0.js?2ac98d170f39834442bfbc2662da8dd0, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_22f281fb4b44a4b318d90c2c50613c83.js?22f281fb4b44a4b318d90c2c50613c83, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_22f281fb4b44a4b318d90c2c50613c83.js?22f281fb4b44a4b318d90c2c50613c83, line 11: unreachable code after return statement
+[Child 2152] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+2792] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 12792] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+listener.js:186:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:575:15
+implicitlyWaitFor/<@chrome://marionette/content/element.js:594:5
+implicitlyWaitFor@chrome://marionette/content/element.js:568:10
+element.find/<@chrome://marionette/content/element.js:249:24
+element.find@chrome://marionette/content/element.js:248:10
+findElementContent@chrome://marionette/content/listener.js:1044:18
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+JavaScript warning: https://s3.music.126.net/web/s/core_2ac98d170f39834442bfbc2662da8dd0.js?2ac98d170f39834442bfbc2662da8dd0, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_2ac98d170f39834442bfbc2662da8dd0.js?2ac98d170f39834442bfbc2662da8dd0, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_22f281fb4b44a4b318d90c2c50613c83.js?22f281fb4b44a4b318d90c2c50613c83, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_22f281fb4b44a4b318d90c2c50613c83.js?22f281fb4b44a4b318d90c2c50613c83, line 11: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C007A,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4600BB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+[Child 10488] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 311: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 653: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7,name=PAPZ::Msg_UpdateZoomConstraints) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C002A,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920016,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x900001,name=PLayer::Msg___delete__) Channel error: cannot send/recv
+
