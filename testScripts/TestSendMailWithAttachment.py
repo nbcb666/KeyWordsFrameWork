@@ -133,7 +133,7 @@ def TestSendMailWithAttachment():
                             locatorExpression is None:
                         frameIndex1 = str(frameIndex)
                         exprssionStr = keyWord.strip() + "("+frameIndex1+")"
-                        print exprssionStr
+                        #print exprssionStr
 
                     #print exprssionStr
                     try:
@@ -154,7 +154,7 @@ def TestSendMailWithAttachment():
                         writeTestResult(
                             stepSheet,step,"caseStep",
                             "faild",errorInfo,capturePic)
-                        logging.info(u"步骤",u"执行失败，错误信息:" ,(stepRow[testStep_testStepDescribe-1],errorInfo))
+                        logging.info(u"步骤%s执行失败，错误信息:" %(stepRow[testStep_testStepDescribe-1],errorInfo))
 
                     else:
                         #在测试步骤sheet中写入成功信息
@@ -162,7 +162,7 @@ def TestSendMailWithAttachment():
                         #每成功一步，successfulSteps变量自增+1
                         successfulSteps +=1
 
-                        logging.info(u"步骤",u"执行通过",stepRow[testStep_testStepDescribe - 1])
+                        logging.info(u"步骤%s执行通过" %stepRow[testStep_testStepDescribe - 1])
                 if successfulSteps == stepNum-1:
                     #当测试用例步骤sheet中所有步骤执行成功，将成功信息写入 测试用例sheet
                     #否则写入失败
